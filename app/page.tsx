@@ -21,6 +21,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Loader from "@/components/loader";
+import Navbar from "./navbar";
 
 fal.config({
   proxyUrl: "/api/fal/proxy",

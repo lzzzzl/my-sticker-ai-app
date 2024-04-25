@@ -17,10 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="h-[65px] fixed inset-y-0 w-full z-50">
-        <Navbar />
-      </div>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="h-[65px] fixed inset-y-0 w-full z-50">
+          <Navbar />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
